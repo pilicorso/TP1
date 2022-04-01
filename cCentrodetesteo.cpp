@@ -22,13 +22,13 @@ void cCentrodetesteo::AsociarLaboratorio(cLaboratorio* _laboratorio)
 	this->laboratorio = _laboratorio;
 }
 
-void cCentrodetesteo::AltaPacientes(cPacientes* _paciente1, cPacientes* _paciente2)
+void cCentrodetesteo::AltaPaciente(cPacientes* _paciente)
 {
 	if (paciente1 != NULL) {
-		this->paciente1 = _paciente1;
+		this->paciente1 = _paciente;
 	}
-	if (paciente2 != NULL) {
-		this->paciente2 = _paciente2;
+	else if (paciente2 != NULL) {
+		this->paciente2 = _paciente;
 	}
 }
 

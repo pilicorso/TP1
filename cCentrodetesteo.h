@@ -23,6 +23,6 @@ public:
 	cCentrodetesteo(float _IDcentro1, int _comuna1, string _nombre1);
 	~cCentrodetesteo();
 	void AsociarLaboratorio(cLaboratorio* _laboratorio);
-	void AltaPacientes(cPacientes* _paciente1, cPacientes* _paciente2);
+	void AltaPaciente(cPacientes* _paciente);
 	//void MandarMuestra
 };
